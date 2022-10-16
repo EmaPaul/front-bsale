@@ -1,0 +1,81 @@
+
+@import "./base/reset.css";
+@import "./components/input.css";
+@import "./components/navbar.css";
+@import "./components/product.css";
+@import "./components/loader.css";
+@import "./components/filters.css";
+
+body {
+  background-color:  #ff7300;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size:15px;
+  width: 100%;
+}
+
+header {
+  min-height: 60px;
+  background-color: #ff7300;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5px 0
+}
+
+.header-content{
+  margin-top: -50px;
+}
+
+.header-content h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: calc(100vh - 170px);
+}
+
+.main-content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+footer {
+  height: 40px;
+  background-color: #b46205;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buscador{
+  margin-top:10px;
+  margin-left:450px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .buscador{
+      margin-left:30px
+  }
+  .header-content{
+    margin-left:0px;
+    margin-top:0px;
+  }
+  .no-results{
+    margin-top:-10px;
+  }
+}

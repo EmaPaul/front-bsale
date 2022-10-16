@@ -1,0 +1,50 @@
+.input-container {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-radius: 10px;
+  width: 40%;
+  min-width: 300px;
+}
+
+.input-content {
+  border: none ; 
+  border-radius: 10px 0 0 10px;
+  font-size: 1rem;
+  outline: none;
+  height: 100%;
+  color: #6a6a6a;
+  width: calc(100% - 50px);
+  padding: 0 10px;
+  border:1px solid black;
+}
+
+.input-suffix {
+  height: 100%;
+  width: 50px;
+  background-color: hsl(0, 0%, 0%);
+  border: none;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding:10px
+}
+
+.input-suffix:hover {
+  background-position: right center;
+  color: rgb(252, 122, 0);
+  text-decoration: none;
+}
+
+.input-suffix:active {
+  transform: scale(0.95);
+}
+
+.input-container:hover {
+  box-shadow: 2px 2px 2px 1px rgba(255, 123, 0, 0.2);
+}
+
+.input-suffix:hover {
+  opacity: 0.9;
+}

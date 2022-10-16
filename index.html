@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bsale-Store</title>
+  <link rel="stylesheet" href="assets/stylesheets/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+  <link rel="icon"sizes="32x32"href="https://res.cloudinary.com/dltjb3yhc/image/upload/v1663220828/banner/iconoBsale_mkkwpk.jpg">
+</head>
+
+<body>
+  
+    <div class="header-content" style="padding-top: 5%">
+      <header>
+        <nav> 
+          <ul class="navbar-content">
+          <li class="navbar-item-category" data-category=0>Inicio</li>
+          <li class="navbar-item-category" data-category=1>Bebida energética</li>
+          <li class="navbar-item-category" data-category=2>Pisco</li>
+          <li class="navbar-item-category" data-category=3>Ron</li>
+          <li class="navbar-item-category" data-category=4>Bebida</li>
+          <li class="navbar-item-category" data-category=5>Snack</li>
+          <li class="navbar-item-category" data-category=6>Cerveza</li>
+          <li class="navbar-item-category" data-category=7>Vodka</li>
+        </ul>
+      </nav>
+      </header>
+    </div>
+  
+  <div class="buscador">
+    <form class="input-container" id="search">
+      <input class="input-content" type="text" placeholder="Buscar productos..." name="name">
+      <button class="input-suffix" type="submit">  🔎  </button>
+    </form>
+  </div>
+  <main>
+    <div class="main-content">
+      <div id="used-filters">
+        <p id="message-filters"></p>
+        <div class="nav__logo">
+          <a href="https://www.bsale.cl/" target="_blank">
+            <img src="https://dojiw2m9tvv09.cloudfront.net/16738/2/img-logos-web-bsale-blanco-footer.png?1207" width="150px" id="img-logo"/>
+          </a>
+          Ordena tu negocio y vende más con Bsale
+        </div>
+        <form id="numeric-filters">
+          <div>
+          <b>Precio:</b>
+          $ <input type=number name="minprice" class="number-filter">
+          a
+          $ <input type=number name="maxprice" class="number-filter">
+        </div>
+        <div>
+          <b>Descuento:</b>
+          <input type=number name="mindiscount" class="number-filter">%
+          a
+          <input type=number name="maxdiscount" class="number-filter">%
+        </div>
+        <button class="btn-filter" #id="button-filter" type="submit">Buscar</button>
+        </form>
+      </div>
+      <div id="products-list-container">
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    Sobre mí: 
+    <span>
+      <a href="https://www.linkedin.com/in/emmanuel-pa%C3%BAl-carrillo-carpio/" target="_blank">
+          <box-icon type='logo' name='linkedin'></box-icon>
+      </a> 
+  </span>
+  <span>
+    <a href="https://portafolio-ema-paul.vercel.app/" target="_blank">
+      <box-icon name='smile'></box-icon>
+    </a> 
+  </span>
+  </footer>
+</body>
+
+<script type="module" src="/scripts/index.js"></script>
+
+</html>
