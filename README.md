@@ -13,7 +13,7 @@ Para la realizacion de esta tienda virtual se utilizo vanilla js, HTML y CSS, ad
 ## Funcionabilidades
 
 <li>Una barra de navegacion que recorre las categorias de los productos, mostrando los productos relacionados a dicha categoria al hacer click en una de las opciones. Adicionalmente se tiene un boton de inicio donde al darle click mostrara todos los productos de la tienda.</li>
-
+<br/>
 <img src="https://res.cloudinary.com/dltjb3yhc/image/upload/v1665971669/proyectos/barra_de_navegacion_crbotb.png"/>
 
 <br/>
